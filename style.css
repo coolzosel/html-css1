@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+}
+
+/* 반복되는 코드 있으면 그룹핑해서 스타일입히기 */
+h1, h2 {
+    color: #009b0b;
+} 
+
+/* h1 선택자, 속성 변경 */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text {
+    font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 마진-왼쪽/오른쪽 auto - 자동정렬 */
+}
+
+.blog-post {
+    background-color: #0000ff;
+}
+
+.other-posts {
+    background-color: #00ff00;
+}
+
+.author-box {
+    background-color: #ffff00;
+}
